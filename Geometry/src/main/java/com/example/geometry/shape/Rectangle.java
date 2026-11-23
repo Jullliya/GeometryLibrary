@@ -5,9 +5,9 @@ public class Rectangle implements Shape {
     private final double wight;
     private final double height;
 
-    public Rectangle(double x, double y) {
-        this.wight = x;
-        this.height = y;
+    public Rectangle(double wight, double height) {
+        this.wight = wight;
+        this.height = height;
     }
 
     @Override
