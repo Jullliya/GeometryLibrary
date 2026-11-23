@@ -14,4 +14,10 @@ public class UnitsConverter {
     public static double convertPerimeterToM(Double perimeter) {
         return perimeter / 100;
     };
+    public static double convertVolumeToMm(Double volume) {
+        return volume * 1000;
+    };
+    public static double convertVolumeToM(Double volume) {
+        return volume / 1000000;
+    };
 }
